@@ -1,0 +1,14 @@
+
+footer {
+    form{
+        input{
+            &:focus {
+                background-color: blue;
+                &::placeholder {
+                    color: white;
+                }
+            }
+           
+        }
+    }
+}
